@@ -554,10 +554,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 @media (min-width: 576px) {
   .container-exp {
     max-width: 540px;
   }
+  
 }
 @media (min-width: 768px) {
   .container-exp {
@@ -10190,6 +10193,10 @@ h3 {
 
 .masthead .masthead-t {
   font-size: 1.2rem;
+  
+}
+.masthead-t {
+  text-align: center;
   
 }
 .masthead-subt {
