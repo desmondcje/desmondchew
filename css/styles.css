@@ -65,7 +65,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  
   background-color: #fff;
 }
 
@@ -87,6 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
+
 }
 
 abbr[title],
@@ -390,8 +392,9 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.11rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .display-1 {
@@ -10032,16 +10035,16 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 .page-section .page-section-heading {
-  font-size: 2.1rem;
-  line-height: 2rem;
+  font-size: 1.7rem;
+  line-height: 0rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 2.1rem;
-    line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 1rem;
   }
 }
 
@@ -10169,8 +10172,8 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 33px);
-  padding-bottom: 6rem;
+  padding-top: calc(6rem + 60px);
+  padding-bottom: 4rem;
 }
 .masthead .masthead-heading {
   font-size: 2.1rem;
@@ -10182,7 +10185,7 @@ h3 {
 .masthead .masthead-p {
   font-size: 1rem;
   text-align:justify;
-  
+
 }
 
 .masthead .masthead-t {
@@ -10192,6 +10195,7 @@ h3 {
 .masthead-subt {
   font-size: 1.2rem;
   font-weight:400;
+  text-align: left;
   
 }
 
@@ -10201,8 +10205,8 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(6rem + 60px);
+    padding-bottom: 4rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -10305,10 +10309,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #212529;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #16191b;
 }
