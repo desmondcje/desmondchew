@@ -10212,7 +10212,7 @@ h3 {
     font-size: 4rem;
     line-height: 3.5rem;
   }
-  .masthead .masthead-subheading {
+  .masthead .masthead-subheading .masthead-t {
     font-size: 1.5rem;
   }
 }
